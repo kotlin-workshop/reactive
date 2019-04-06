@@ -1,4 +1,4 @@
-package com.thoughtworks.kotlin.reactive
+package com.thoughtworks.kotlin.reactive.demo
 
 import org.reactivestreams.Subscriber
 import org.reactivestreams.Subscription
