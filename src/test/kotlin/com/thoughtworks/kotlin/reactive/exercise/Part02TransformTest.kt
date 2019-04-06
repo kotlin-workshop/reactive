@@ -44,7 +44,7 @@ class Part02TransformTest {
     @Test
     fun `should get total salary of all departments`() {
 
-        val department = Flux.just(Department(1, "Finance", 42, mutableListOf(Employee(1, "Alice", 5000),
+        val department = Mono.just(Department(1, "Finance", 42, mutableListOf(Employee(1, "Alice", 5000),
                 Employee(2, "Bob", 4000),
                 Employee(3, "Carol", 6000))))
 
